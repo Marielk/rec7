@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  background-color: #000000;
+  margin: 0;
+  font-family: "Krub", sans-serif;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.25em;
+  color: #ffffff;
+}
+
+.subtitulo, h4, h5 {
+  font-weight: 400;
+}
+
+#ubicacion h2 {
+  margin: 1em auto;
+}
+
+.sweet-brown h3, .sweet-brown h5 {
+  margin-bottom: 0.5em;
+}
+
+#eventos h2 {
+  margin-bottom: 1em;
+}
+
+#eventos h3 {
+  margin: 1em auto;
+}
+
+
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 3.125rem;
+  white-space: nowrap;
+}
+
+
+section, footer {
+  margin-top: 4.5rem;
+  .section-title-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    h4 {
+      padding: 5px 10px;
+    }
+  }
+  span.divider{
+    border-bottom: 1px solid white;
+    height: 2px;
+  }
+}
+
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.charla-speaker, .charla-texto, .evento {
+  display: inline-block;
+}
+
+.charla-speaker{
+  width: 25%;
+  vertical-align: middle;
+}
+
+.charla-texto  {
+  width: 72.5%;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  white-space: normal;
+}
+
+.evento {
+  width: 30%;
+}
+
+.evento img {
+  width: 75%;
+}
+
+
+
+.icono {
+  width: 2rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+footer svg {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+
+iframe {
+  border-radius: 20px;
+  width: 385px;
+  padding-top: 1px;
+}
+
+.button-secondary{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 1% 2%;
+  border-radius: 14px;
+}

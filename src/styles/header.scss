@@ -1,0 +1,50 @@
+.hero-section {
+  text-align: right;
+  background-image: url('../assets/img/bg-hero_1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 91px;
+  padding: 16.25rem 3.125rem;
+}
+
+#logo-wrapper {
+  margin-top: 0;
+  display: flex;
+  position: relative;
+  top: -160px;
+  left: 158px;
+  img{
+    width: 220px;
+    height: 220px;
+  }
+
+  .logotext-wrapper{
+    position: relative;
+    text-align: left;
+    top: 86px;
+    left: 40px;
+    h1, h3, h4 {
+      margin: 0px;
+    }
+    .logoName-wrapper{
+      display: flex;
+      align-items: baseline;
+      position: relative;
+      top: 10px;
+      h1 {
+        font-weight: bolder;
+          font-size: 72px;
+          margin-bottom: 0;
+          font-family: 'KRUB';
+      }
+      h3 {
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+    }
+    h4 {
+      font-style: italic;
+    }
+  }
+}

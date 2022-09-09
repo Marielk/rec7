@@ -1,0 +1,30 @@
+nav {
+  text-align: left;
+  position: fixed;
+  width: 100vw;
+  z-index: 3;
+  ul {
+    list-style-type: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li {
+      display: inline-block;
+      margin: 0 1em;
+      vertical-align: middle;
+    }
+  }
+}
+
+.oscuro {
+  background: #000000;
+  color: #ffffff;
+}
+
+.oscuro a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
