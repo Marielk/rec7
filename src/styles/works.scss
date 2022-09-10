@@ -14,3 +14,52 @@ section#eventos{
 .divider{
   width: 41%;
 }
+
+section#works-page {
+  margin-top: 0px;
+}
+
+.works-header {
+  .logoName-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    h1 {
+      margin-top: 0;
+      font-size: 48px;
+    }
+    h3{
+      margin-top: 0;
+      font-size: 24px;
+    }
+  }
+  img{
+    margin-top: 100px;
+    width: 150px;
+  }
+}
+.content-wrapper {
+  display: flex;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.video-text-column {
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 450px;
+  padding-left: 5%;
+  .video-text-wrapper {
+    text-align: left;
+    width: 380px;
+  }
+}
+
+.margin-top{
+  margin-top: 45px;
+}

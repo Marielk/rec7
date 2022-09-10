@@ -6,11 +6,11 @@ const NavBar = () => {
     <nav className="oscuro">
       <ul>
         <li className="icono">
-          <a href="#inicio">
+          <a href="/">
             <img src={logo} alt="Home Rec7 Films"/>
           </a>
         </li>
-        <li><a href="#ubicacion">Trabajos</a></li>
+        <li><a href="/portafolio">Trabajos</a></li>
         <li><a href="#contacto">Contacto</a> </li>
       </ul>
     </nav>
